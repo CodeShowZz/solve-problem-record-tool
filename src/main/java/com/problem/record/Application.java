@@ -19,13 +19,13 @@ import java.util.Locale;
  * @date: 2023-12-18 15:59
  */
 @SpringBootApplication
-public class MybatisDemoApplication implements CommandLineRunner {
+public class Application implements CommandLineRunner {
 
     @Autowired
     private ProblemRecordRepository problemRecordRepository;
 
     public static void main(String[] args) {
-        SpringApplication.run(MybatisDemoApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
     @Override
