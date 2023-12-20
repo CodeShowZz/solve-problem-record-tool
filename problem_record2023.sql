@@ -1,58 +1,49 @@
-INSERT INTO `problem_record` VALUES (34, 'leetcode', '1.两数之和', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (35, 'leetcode', '2.两数相加', '中等', 4, 4, '2023-12-18 18:45:42', '2023-12-20 03:24:08', NULL);
-INSERT INTO `problem_record` VALUES (36, 'leetcode', '3.无重复字符的最长子串', '中等', 4, 4, '2023-12-18 18:45:42', '2023-12-20 03:33:48', NULL);
-INSERT INTO `problem_record` VALUES (37, 'leetcode', '5.最长回文子串', '中等', 3, 3, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (38, 'leetcode', '11.盛最多水的容器', '中等', 3, 3, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (39, 'leetcode', '15.三数之和', '中等', 3, 3, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (40, 'leetcode', '17.电话号码的字母组合', '中等', 3, 3, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (41, 'leetcode', '19.删除链表的倒数第N个结点', '中等', 3, 3, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (42, 'leetcode', '20.有效的括号', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (43, 'leetcode', '21.合并两个有序链表', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (44, 'leetcode', '22.括号生成', '中等', 4, 3, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (45, 'leetcode', '31.下一个排列', '中等', 4, 3, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (46, 'leetcode', '33.搜索旋转排序数组', '中等', 4, 3, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (47, 'leetcode', '34.在排序数组中查找元素的第一个和最后一个位置', '中等', 3, 3, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (48, 'leetcode', '35.搜索插入位置', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-1 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (49, 'leetcode', '39.组合总和', '中等', 4, 3, '2023-12-18 18:45:42', '2023-12-12 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (50, 'leetcode', '46.全排列', '中等', 3, 3, '2023-12-18 18:45:42', '2023-12-11 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (51, 'leetcode', '48.旋转图像', '中等', 3, 3, '2023-12-18 18:45:42', '2023-12-11 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (52, 'leetcode', '49.字母异位词分组', '中等', 3, 3, '2023-12-18 18:45:42', '2023-12-14 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (53, 'leetcode', '53.最大子数组和', '中等', 3, 3, '2023-12-18 18:45:42', '2023-12-12 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (54, 'leetcode', '55.跳跃游戏', '中等', 3, 3, '2023-12-18 18:45:42', '2023-12-11 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (55, 'leetcode', '56.合并区间', '中等', 2, 1, '2023-12-18 18:45:42', '2023-12-11 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (56, 'leetcode', '62.不同路径', '中等', 2, 2, '2023-12-18 18:45:42', '2023-12-11 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (57, 'leetcode', '64.最小路径和', '中等', 3, 2, '2023-12-18 18:45:42', '2023-12-11 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (58, 'leetcode', '70.爬楼梯', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-2 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (59, 'leetcode', '72.编辑距离', '中等', 2, 0, '2023-12-18 18:45:42', '2023-12-11 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (60, 'leetcode', '75.颜色分类', '中等', 4, 3, '2023-12-18 18:45:42', '2023-12-13 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (61, 'leetcode', '78.子集', '中等', 3, 3, '2023-12-18 18:45:42', '2023-12-12 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (62, 'leetcode', '79.单词搜索', '中等', 4, 3, '2023-12-18 18:45:42', '2023-11-2 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (63, 'leetcode', '94.二叉树的中序遍历', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-2 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (64, 'leetcode', '96.不同的二叉搜索树', '中等', 4, 1, '2023-12-18 18:45:42', '2023-12-12 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (65, 'leetcode', '98.验证二叉搜索树', '中等', 4, 3, '2023-12-18 18:45:42', '2023-12-13 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (66, 'leetcode', '101.对称二叉树', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-2 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (67, 'leetcode', '102.二叉树的层序遍历', '中等', 3, 3, '2023-12-18 18:45:42', '2023-12-14 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (68, 'leetcode', '104.二叉树的最大深度', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-2 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (69, 'leetcode', '105.从前序与中序遍历序列构造二叉树', '中等', 4, 2, '2023-12-18 18:45:42', '2023-12-19 09:59:09', NULL);
-INSERT INTO `problem_record` VALUES (70, 'leetcode', '108.将有序数组转换为二叉搜索树', '简单', 4, 3, '2023-12-18 18:45:42', '2023-12-19 18:33:12', NULL);
-INSERT INTO `problem_record` VALUES (71, 'leetcode', '114.二叉树展开为链表', '中等', 4, 3, '2023-12-18 18:45:42', '2023-12-14 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (72, 'leetcode', '118.杨辉三角', '简单', 4, 3, '2023-12-18 18:45:42', '2023-12-20 03:56:35', NULL);
-INSERT INTO `problem_record` VALUES (73, 'leetcode', '121.买卖股票的最佳时机', '简单', 3, 3, '2023-12-18 18:45:42', '2023-12-14 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (74, 'leetcode', '122.买卖股票的最佳时机II', '中等', 1, 0, '2023-12-18 18:45:42', '2023-12-14 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (75, 'leetcode', '128.最长连续序列', '中等', 4, 2, '2023-12-18 18:45:42', '2023-12-14 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (76, 'leetcode', '136.只出现一次的数字', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-4 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (77, 'leetcode', '139.单词拆分', '中等', 3, 2, '2023-12-18 18:45:42', '2023-12-14 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (78, 'leetcode', '141.环形链表', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-4 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (79, 'leetcode', '142.环形链表II', '中等', 4, 2, '2023-12-18 18:45:42', '2023-12-13 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (80, 'leetcode', '146.LRU缓存', '中等', 3, 2, '2023-12-18 18:45:42', '2023-12-13 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (81, 'leetcode', '160.相交链表', '简单', 4, 3, '2023-12-18 18:45:42', '2023-12-20 04:12:08', NULL);
-INSERT INTO `problem_record` VALUES (82, 'leetcode', '169.多数元素', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-5 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (83, 'leetcode', '206.反转链表', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-5 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (84, 'leetcode', '226.翻转二叉树', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-5 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (85, 'leetcode', '234.回文链表', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-5 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (86, 'leetcode', '283.移动零', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-5 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (87, 'leetcode', '338.比特位计数', '简单', 3, 2, '2023-12-18 18:45:42', '2023-11-5 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (88, 'leetcode', '448.找到所有数组中消失的数字', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-5 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (89, 'leetcode', '461.汉明距离', '简单', 2, 2, '2023-12-18 18:45:42', '2023-11-5 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (90, 'leetcode', '543.二叉树的直径', '简单', 3, 2, '2023-12-18 18:45:42', '2023-11-5 00:00:00', NULL);
-INSERT INTO `problem_record` VALUES (91, 'leetcode', '617.合并二叉树', '简单', 3, 2, '2023-12-18 18:45:42', '2023-11-5 00:00:00', NULL);
+update problem_record 
+set try_times =4 and success_times  = 4
+where problem_name  = "11.盛最多水的容器";
+
+update problem_record
+set try_times =4 and success_times  = 4
+where problem_name  = "15.三数之和";
+
+update problem_record
+set try_times =4 and success_times  = 4
+where problem_name  = "17.电话号码的字母组合";
+
+update problem_record
+set try_times =4 and success_times  = 4
+where problem_name  = "19.删除链表的倒数第N个结点";
+
+update problem_record
+set try_times =3 and success_times  = 3
+where problem_name  = "20.有效的括号";
+
+update problem_record
+set try_times =3 and success_times  = 3
+where problem_name  = "21.合并两个有序链表";
+
+update problem_record
+set try_times =4 and success_times  = 3
+where problem_name  = "338.比特位计数";
+
+update problem_record
+set try_times =4 and success_times  = 3
+where problem_name  = "543.二叉树的直径";
+
+update problem_record
+set try_times =4 and success_times  = 3
+where problem_name  = "617.合并二叉树";
+
+
+update problem_record
+set try_times =5 and success_times  = 4
+where problem_name  = "22. 括号生成";
+
+update problem_record
+set try_times =5 and success_times  = 3
+where problem_name  = "31.下一个排列";
+
+
+
+
+
