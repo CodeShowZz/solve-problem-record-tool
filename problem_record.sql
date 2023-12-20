@@ -1,5 +1,3 @@
--- test.problem_record definition
-
 CREATE TABLE `problem_record` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `problem_category` varchar(100) NOT NULL DEFAULT '' COMMENT '问题分类',
@@ -10,5 +8,7 @@ CREATE TABLE `problem_record` (
   `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
   `remark` varchar(255) DEFAULT '' COMMENT '备注',
+  `importance` varchar(255) DEFAULT '' COMMENT '了解,理解,掌握',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=121 DEFAULT CHARSET=utf8mb4;
+
